@@ -1,27 +1,36 @@
-<a href="https://discord.gg/wRCgB7vBQv">
-    <img src="https://img.shields.io/discord/811542332678996008?color=7289DA&label=Support&logo=discord&style=for-the-badge" alt="Discord">
-</a>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Getting Started
 
-# Vocard Dashboard
-Vocard Dashboard is a web-based user interface that allows users to control the [Vocard music bot](https://github.com/ChocoMeow/Vocard) directly from their browser. With this dashboard, you can easily manage music playback, create playlists, and interact with the bot in a user-friendly way.
+First, run the development server:
 
-## Features
-- **Music Playback Control**: Play, pause, skip, and stop music directly from the dashboard.
-- **Playlist Management**: Create, edit, and delete playlists.
-- **Search Functionality**: Find songs from various sources quickly.
-- **User-Friendly Interface**: Intuitive design for seamless navigation.
-- **Real-time Updates**: Instant feedback on actions taken.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Screenshot
-![features](https://github.com/user-attachments/assets/9e329cd7-a9af-43ff-9096-7e4eae9d28a5)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Requirements
-* [Python 3.11+](https://www.python.org/downloads/)
-* [Vocard Bot (Requires 2.7.0+)](https://github.com/ChocoMeow/Vocard)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Setup
-Please see the [Setup Page](https://docs.vocard.xyz/latest/dashboard/setup) in the docs to run this bot yourself!
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Need Help?
-Join the [Vocard Support Discord](https://discord.gg/wRCgB7vBQv) for help or questions.
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
